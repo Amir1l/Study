@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\build.settings.props" />
   <Import Project="..\..\readme-generation.props" />
@@ -10,9 +10,14 @@
     <PackageReference Include="NUnit.Analyzers" Version="4.7.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Study.LabWork2.Abstractions\Study.LabWork2.Abstractions.csproj" />
+    <ProjectReference Include="..\Study.LabWork2\Study.LabWork2.csproj" />
   </ItemGroup>
 
 </Project>

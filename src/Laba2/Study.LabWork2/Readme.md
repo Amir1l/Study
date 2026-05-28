@@ -75,7 +75,7 @@ Study.LabWork2.Feature.Task1.SubTask1
 
 ##### Summary
 
-Версия 3. Использует Semaphore для синхронизации
+Версия 3. Использует бинарный Semaphore для синхронизации
 
 <a name='T-Study-LabWork2-Feature-Task2-SynchronousServerRequestApp'></a>
 ## SynchronousServerRequestApp `type`
